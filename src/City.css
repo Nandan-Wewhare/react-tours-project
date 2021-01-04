@@ -31,8 +31,8 @@
   color: gray;
 }
 
-.city__card img{
-    width: 100%;
-    height: 25rem;
-    object-fit: cover;
+.city__card img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
 }
