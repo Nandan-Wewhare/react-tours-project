@@ -1,0 +1,38 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card__body {
+  background-color: white;
+}
+
+.city__card {
+  box-shadow: 10px 10px 8px lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 40rem;
+}
+
+.general__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city__price {
+  color: blue;
+  background-color: lightcyan;
+}
+
+.city__description {
+  color: gray;
+}
+
+.city__card img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
