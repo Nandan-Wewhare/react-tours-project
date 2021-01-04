@@ -12,13 +12,13 @@ function City(props) {
           <h5 className="city__price">{props.price}</h5>
         </div>
         <p className="card-text city__description">{props.description}</p>
-        <a
-          href="https://www.makemytrip.com/"
-          className="btn btn-block btn-success"
+        <button
+          onClick={() => props.remover(props.id)}
+          className="btn btn-outline-danger"
           target="__blank"
         >
-          Plan a Trip!
-        </a>
+          Not Interested
+        </button>
       </div>
     </div>
   );
